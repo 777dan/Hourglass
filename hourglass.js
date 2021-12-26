@@ -34,7 +34,7 @@ function countdown() {
     time++;
     if (sand > 0) {
         timer = setTimeout(countdown, 1000);
-        document.getElementById("timer").innerHTML = time;
+        document.getElementById("timer").innerHTML = sand;
     }
     else {
         document.getElementById("timer").innerHTML = "Ваше время истекло";
